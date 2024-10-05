@@ -33,6 +33,7 @@ git clone https://github.com/ENjeruKe/Staff-management-SQLite-Only.git
 ```
 
 # - Install requirements
+
 ```sh
 pip install -r requirements.txt
 ```

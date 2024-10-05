@@ -1,6 +1,6 @@
 #[START OF sqlClient.py]
-#[SCRIPT_GENERATED AT {2024-10-04} {UTC+3}]
-# SCRIPT DETAILS: sqlClient_SQLite_Version_20241004.py
+#[SCRIPT_CREATED ON {2024-06-14} {UTC+3}]
+# SCRIPT DETAILS: sqlClient_SQLite_Version_20240614.py
 #
 # This script has been modified to use SQLite instead of MySQL. 
 # SQLite database file is named "employees.db" and is located in the same folder as the main script.
@@ -10,7 +10,7 @@
 import sqlite3
 import os
 
-class mySqlClient:  # Renaming kept for consistency, even though it now handles SQLite.
+class mySqlClient:  # Renaming kept for consistency, even though it  handles SQLite.
 
     def __init__(self, database: str = 'employees.db'):
         '''
